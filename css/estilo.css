@@ -1,0 +1,363 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --color1: #800000;
+  --color2: #cc9900;
+}
+body {
+  font-size: 16px;
+  font-family: helvetica;
+}
+.ancho {
+  width: 1200px;
+  margin: auto;
+}
+.centrar {
+  text-align: center;
+}
+.margen {
+  padding: 10px;
+}
+.contenedor_acceso {
+  padding: 20px;
+}
+.contenedor_logo {
+  width: 150px;
+  margin: auto;
+}
+.contenedor_logo img {
+  width: 100%;
+  padding-top: 20px;
+}
+.contenedor_logo2 {
+  text-align: center;
+}
+.contenedor_logo2 img {
+  width: 50px;
+}
+.contenedor_info {
+  width: 500px;
+  border-radius: 5px;
+  margin: auto;
+  background-color: #f2f4f6;
+  border: 1px #ccc solid;
+  text-align: center;
+  padding: 15px;
+}
+.avisoerror {
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  background-color: #f1d2d2;
+  color: red;
+  font-weight: normal;
+  font-size: 14px;
+}
+.elementos {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px #ccc solid;
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.elementos2 {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px #ccc solid;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.btn_iniciarsesion {
+  cursor: pointer;
+  padding: 15px 30px;
+  background-color: var(--color1);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.btn_iniciarsesion:hover {
+  background-color: #333;
+}
+.btn_registrar {
+  cursor: pointer;
+  padding: 15px 30px;
+  background-color: var(--color2);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.btn_registrar:hover {
+  background-color: #333;
+}
+.btn_crearcuenta {
+  padding: 10px;
+  background-color: var(--color2);
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: auto;
+  margin-top: 20px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.btn_crearcuenta:hover {
+  text-decoration: underline;
+}
+hr {
+  border: 0;
+  height: 1px;
+  width: 95%;
+  margin: auto;
+  background-color: #ccc;
+}
+.contenedor_dashboard {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.contenedor_menu {
+  width: 20%;
+  padding: 15px;
+}
+.contenedor_panel {
+  background-color: #f2f4f6;
+  width: 100%;
+  padding: 15px;
+}
+.contenedor_salir {
+  background-color: white;
+  text-align: right;
+  padding: 5px 20px;
+}
+.contenedor_salir a {
+  color: red;
+  vertical-align: bottom;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.contenedor_salir .cerrar {
+  width: 5px;
+  height: 5px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+.contenedor_panel_info {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+.fotopanel {
+  border-radius: 10px;
+  width: 800px;
+}
+.submenu_dashboard {
+  text-align: left;
+}
+.usuario_estilo {
+  padding: 20px 0px;
+  color: var(--color2);
+  font-size: 14px;
+  text-align: center;
+}
+.menu_dashboard {
+  border: 1px #a3a3a3 solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+.menu_dashboard ul {
+  margin-left: 20px;
+}
+.menu_dashboard a {
+  display: block;
+  line-height: 40px;
+  text-align: none;
+  color: black;
+  border-bottom: 1px #333 dotted;
+}
+
+/* ....................... */
+.btn_ver {
+  padding: 10px 15px;
+  background-color: var(--color1);
+  color: white;
+  border: 0;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.btn_ver:hover {
+  background-color: #333;
+}
+.btn_regresar {
+  padding: 10px 15px;
+  background-color: #42b82e;
+  color: white;
+  border: 0;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: auto;
+}
+.btn_verde2 {
+  padding: 15px 30px;
+  background-color: #42b82e;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.azul {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1979f4;
+}
+
+.fanpage {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.texto_small {
+  font-size: 12px;
+  color: var(--color1);
+  font-weight: bold;
+  text-decoration: none;
+}
+.abajo {
+  font-size: 14px;
+}
+/* secciones */
+
+.inicio {
+  text-align: center;
+}
+
+.texto {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 0px;
+}
+.texto2 {
+  color: #999;
+  font-size: 12px;
+  text-align: left;
+  padding: 10px 0px;
+}
+select {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+  font-size: 14px;
+}
+table {
+  border: 1px #777 solid;
+  border-spacing: 5px;
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+}
+table th {
+  font-size: 15px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+table td {
+  font-size: 14px;
+  text-align: center;
+  border: 1px #777 solid;
+  border-radius: 5px;
+}
+.iconos_dashboard {
+  width: 25px;
+  margin: 5px;
+}
+.contenedor_perfil {
+  border: 2px #777 dotted;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+}
+.contenedor_perfil img {
+  margin-left: 20px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 5px #42b82e solid;
+}
+.contenedor_perfil h2 {
+  padding: 10px;
+  color: #1979f4;
+}
+.contenedor_perfil p {
+  text-align: left;
+  padding: 10px;
+  font-weight: normal;
+}
+.btn_editar {
+  padding: 15px 30px;
+  background-color: #1979f4;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  display: inline-block;
+  margin: auto;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.celdachica {
+  color: var(--color2);
+  width: 80px;
+}
+.celdagrande {
+  width: 300px;
+}
+.celdamediana {
+  width: 130px;
+}
+.nombre {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+.contendor_info_usuario {
+  text-align: left;
+}
+.infousuarios {
+  margin: 20px 0px;
+}
+.negritas {
+  font-weight: bold;
+}
+.textodatos {
+  padding: 10px;
+  font-weight: bold;
+}
+.color {
+  color: var(--color1);
+}
